@@ -1,0 +1,75 @@
+body {
+	font-size: 16px;
+	color: white;
+	background-color: #FFA800;
+}
+.container {
+	width: 100%;
+	padding: 0;
+}
+
+.navbar-brand {
+	height: 70px;
+	float: left;
+	clear: both;
+	margin: 2px;
+	padding: 8px 2px 2px 25px;
+	text-shadow: 1px 1px 1px #222;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+h1 {
+	font-size: 40px;
+	margin: 3px;
+	color: red;
+	font-family: Berlin Sans FB;
+	font-style: bold;
+}
+.navbar-toggle {
+	position: relative;
+	float: right;
+	border: 1px solid transparent;
+}
+#nav-list{
+	margin-top:15px;
+}
+#nav-list a{
+	color: red;
+	text-align: center;
+	font-family: Berlin Sans FB;
+}
+#nav-list a:hover {
+	color: white;
+	background: red;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid red;
+}
+h2 {
+	font-family: Berlin Sans FB;
+	color: red;
+	text-align: center;
+	margin: 0;
+	font-size: 35px;
+	text-shadow: 1px 1px 1px;
+}
+.d1 {
+	position: relative;
+	top: 20px;
+}
+.d1 div div{
+	background-color: red;
+	padding: 10px;
+	border-radius: 25px;
+	font-family: Berlin Sans FB;
+	margin-top: 25px;
+}
+.d1 div div div {
+	margin: 0px;
+}
+.d1 h3 {
+	font-size: 27px;
+	margin: 0px;
+	text-align: center;
+}
